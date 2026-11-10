@@ -1,7 +1,7 @@
 <div align="center">
 
 <a href="https://portfolio-mocha-beta-56.vercel.app/">
-  <img src="https://raw.githubusercontent.com/AR-Sijan/AR-Sijan/main/assets/header.svg" width="100%" alt="Arafat Rahman Sijan - Header" />
+  <img src="./assets/header.svg" width="100%" alt="Arafat Rahman Sijan - Header" />
 </a>
 
 <br/>
@@ -13,7 +13,7 @@
 <br/>
 
 <a href="https://portfolio-mocha-beta-56.vercel.app/">
-  <img src="https://raw.githubusercontent.com/AR-Sijan/AR-Sijan/main/assets/bento_metrics.svg" width="100%" alt="Verifiable Metrics Bento" />
+  <img src="./assets/bento_metrics.svg" width="100%" alt="Verifiable Metrics Bento" />
 </a>
 
 <br/>
