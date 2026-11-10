@@ -1,126 +1,82 @@
 <div align="center">
 
-# 🛡️ ARAFAT RAHMAN SIJAN
-### `Offensive Security Researcher` • `Certified Red Team Analyst (CRTA)` • `Systems Architect`
+<a href="https://portfolio-mocha-beta-56.vercel.app/">
+  <img src="https://raw.githubusercontent.com/AR-Sijan/AR-Sijan/main/assets/header.svg" width="100%" alt="Arafat Rahman Sijan - Header" />
+</a>
 
-```text
-       ___      ____        ____    _     _                 
-      /   \    |  _ \      / ___|  (_)   (_)   __ _   _ __  
-     / /_\ \   | |_) | ____\___ \  | |   | |  / _` | | '_ \ 
-    / /___\ \  |  _ < |_____|__) | | |   | | | (_| | | | | |
-   /_/     \_\ |_| \_\     |____/  |_|  _/ |  \__,_| |_| |_|
-                                       |__/                 
-```
-
-**"The attacker's mindset. The defender's discipline."**
-
-[![Live Command Center](https://img.shields.io/badge/TACTICAL%20COMMAND%20CENTER-portfolio--mocha--beta--56.vercel.app-00f5d4?style=for-the-badge&logo=vercel&logoColor=black)](https://portfolio-mocha-beta-56.vercel.app/)
-[![CRTA Certified](https://img.shields.io/badge/CRTA-VERIFIED%20%2368C464-10b981?style=for-the-badge&logo=securityscorecard&logoColor=white)](https://portfolio-mocha-beta-56.vercel.app/)
-[![HTB Rank](https://img.shields.io/badge/HTB%20GLOBAL-RANK%20%2335%20%2F%206%2C744-22d3ee?style=for-the-badge&logo=hackthebox&logoColor=white)](https://portfolio-mocha-beta-56.vercel.app/)
-[![EU Grantee](https://img.shields.io/badge/EU%20%2F%20GYM-€1%2C500%20GRANTEE-f59e0b?style=for-the-badge&logo=europeanunion&logoColor=white)](https://portfolio-mocha-beta-56.vercel.app/)
-
----
-
-</div>
-
-## 📡 01 // OPERATIONAL BRIEFING
-
-> *"Systems exist in two states: breached or awaiting discovery. True resilience is not born from compliance checklists, but from the rigorous emulation of adversaries who do not play by the rules."*
-
-I am an **Offensive Security Researcher** and **Certified Red Team Analyst (CRTA #68C464)** with an academic foundation in Computer Science & Engineering at the University of Barishal. My work centers on adversary emulation across enterprise Windows Active Directory environments, stress-testing Large Language Models against indirect prompt injections, and engineering resilient detection telemetry.
-
-Founding President of **BU ISSF** (*Intelligent Systems & Security Forum*) and recipient of the **€1,500 EU Youth Empowerment Fund / Global Youth Mobilization** grant for civic digital sanctuary and digital safety initiatives.
-
----
-
-## 🎖️ 02 // VERIFIED CREDENTIALS & BENCHMARKS
-
-| Credential / Benchmark | Issuing Organization | Scope / Verification | Status |
-| :--- | :--- | :--- | :--- |
-| **Certified Red Team Analyst (CRTA)** | CyberWarFare Labs | Credential `#68C464` • Enterprise AD Compromise & Lateral Movement | `VERIFIED` |
-| **Global Rank #35 / 6,744** | Hack The Box Cyber Apocalypse | Top 0.5% Worldwide • Cryptography, Pwn, Reverse Engineering, OSINT | `CONFIRMED` |
-| **€1,500 EU Innovation Grant** | EU Youth Empowerment Fund / GYM | Digital Sanctuary & Human-Rights Defender Security Initiatives | `AWARDED` |
-| **Founding President** | BU ISSF | Intelligent Systems & Security Forum, University of Barishal | `ACTIVE` |
-
----
-
-## ⚔️ 03 // CORE CAPABILITY VECTORS
-
-```
-┌───────────────────────────────────────┬───────────────────────────────────────┐
-│ 01 // RED TEAMING & ACTIVE DIRECTORY  │ 02 // ADVERSARIAL AI THREAT MODELING  │
-├───────────────────────────────────────┼───────────────────────────────────────┤
-│ • Kerberos Unconstrained Delegation   │ • Indirect Prompt Injection Chains    │
-│ • Kerberoasting & AS-REP Roasting     │ • Model Weight Exfiltration Vectors   │
-│ • DCSync & NTDS.dit Credential Dumps  │ • Automated Jailbreak Emulation       │
-│ • BloodHound Graph Attack Paths       │ • Guardrail & Boundary Bypass Testing │
-│ • Multi-Hop Pivoting (Ligolo-ng/Chisel│ • Zero-Knowledge Telemetry Scrapers   │
-├───────────────────────────────────────┼───────────────────────────────────────┤
-│ 03 // PRECISION OSINT & RECONNAISSANCE│ 04 // DIGITAL DEFENSE & SANCTUARY     │
-├───────────────────────────────────────┼───────────────────────────────────────┤
-│ • Threat Actor Footprint Correlation  │ • Trauma-Informed Security Protocols  │
-│ • Infrastructure & Subdomain Pivots   │ • Secure Identity Enclaves            │
-│ • Passive DNS & Certificate Forensics │ • Project Green Chalk Architecture    │
-│ • Operational Sock-Puppet Hygiene     │ • Privacy Hardening for Civic Actors  │
-└───────────────────────────────────────┴───────────────────────────────────────┘
-```
-
----
-
-## 🔬 04 // WEAPONIZED PROJECTS & HOMELABS
-
-### 🛡️ [CryptaLeak](https://github.com/AR-Sijan/CryptaLeak) — Zero-Knowledge Breach Detection Engine
-* **Architecture:** Java 21 LTS + MySQL 8.4 + Custom Concurrency Worker Pool.
-* **K-Anonymity Credential Verification:** Evaluates credentials against breach databases with SHA-256 prefix-hashing (sending only 5 chars, keeping 59 chars private) and local constant-time linear comparison (`MessageDigest.isEqual`) to defeat timing side-channel attacks.
-* **In-Memory BFS Threat Graph:** Dynamic organizational risk scoring (0–100%) modeling compromised asset blast radius and lateral traversal pathways.
-* **Honeytoken Decoy Alerting:** Automated canary deployment with database-logged forensic alerts.
-
-### 🟣 [Purple-Team-SSH-Lab](https://github.com/AR-Sijan/Purple-Team-SSH-Lab) — Brute Force Detection with Splunk
-* **Architecture:** Kali Linux (Hydra) + Windows 10 Target (OpenSSH Server) + Ubuntu Host (Splunk Enterprise Indexer).
-* **Log Engineering:** Universal Forwarder mapping of Windows event channel `XmlWinEventLog:OpenSSH`.
-* **Detection & Analytics:** Custom SPL dashboard extracting IP sources, usernames, failure thresholds, and dynamic geo-visualization heatmaps.
-* **Visual Walkthrough:** Complete end-to-end simulation documented on [YouTube](https://www.youtube.com/watch?v=Y8wrNAIpDtA).
-
-### ⚡ [Tactical Portfolio Command Center](https://portfolio-mocha-beta-56.vercel.app/)
-* **Architecture:** Next.js 14 SSG, Obsidian dark cyber aesthetic, dynamic particle field, sub-108kB bundle.
-* **Security Hardening:** Enterprise CSP, HSTS (`max-age=63072000; preload`), `X-Frame-Options: DENY`, `X-Content-Type-Options: nosniff`.
-* **Interactive CLI Terminal:** Embedded interactive shell (`~` or `Ctrl+K`) featuring command emulation and real-time triage.
-
----
-
-## 📊 05 // TELEMETRY & CODING METRICS
-
-<div align="center">
+<br/>
 
 <a href="https://portfolio-mocha-beta-56.vercel.app/">
-  <img src="https://github-readme-stats.vercel.app/api?username=AR-Sijan&show_icons=true&theme=tokyonight&hide_border=true&bg_color=050608&title_color=00f5d4&icon_color=22d3ee&text_color=94a3b8" alt="AR-Sijan's GitHub Stats" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=15&pause=1200&color=00F5D4&center=true&vCenter=true&width=650&height=35&lines=%3E+Offensive+Security+Researcher+%26+Adversarial+Threat+Emulator;%3E+Certified+Red+Team+Analyst+(CRTA+%2368C464);%3E+HTB+Cyber+Apocalypse+2026+Global+Rank+%2335+(Top+0.5%25);%3E+Founding+President+%40+BU+ISSF;%3E+Zero-Knowledge+Threat+Modeling+%26+Active+Directory+Security" alt="Dynamic Typing Headline" />
 </a>
-&nbsp;
+
+<br/>
+
 <a href="https://portfolio-mocha-beta-56.vercel.app/">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AR-Sijan&layout=compact&theme=tokyonight&hide_border=true&bg_color=050608&title_color=00f5d4&text_color=94a3b8" alt="Top Languages" />
+  <img src="https://raw.githubusercontent.com/AR-Sijan/AR-Sijan/main/assets/bento_metrics.svg" width="100%" alt="Verifiable Metrics Bento" />
 </a>
+
+<br/>
+
+<p align="center">
+  <a href="https://portfolio-mocha-beta-56.vercel.app/" target="_blank">
+    <img src="https://img.shields.io/badge/Live_Portfolio-portfolio--mocha--beta--56.vercel.app-00f5d4?style=flat-square&logo=vercel&logoColor=black" alt="Portfolio" />
+  </a>
+  &nbsp;
+  <a href="mailto:arafatsijan2005@gmail.com">
+    <img src="https://img.shields.io/badge/Encrypted_Mail-arafatsijan2005%40gmail.com-0ea5e9?style=flat-square&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+  &nbsp;
+  <a href="https://www.linkedin.com/in/arafat-rahman-sijan/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-arafat--rahman--sijan-3b82f6?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  &nbsp;
+  <a href="https://app.hackthebox.com/profile/1865445" target="_blank">
+    <img src="https://img.shields.io/badge/Hack_The_Box-Rank_%2335-10b981?style=flat-square&logo=hackthebox&logoColor=white" alt="Hack The Box" />
+  </a>
+</p>
 
 </div>
 
 ---
 
-## 🧩 06 // CTF EASTER EGG FOR RESEARCHERS
+### 🛡️ About Me
 
-> *For tech leads, recruiters, and curious security researchers looking beyond the surface:*
->
-> 1. Check the HTTP response headers of [portfolio-mocha-beta-56.vercel.app](https://portfolio-mocha-beta-56.vercel.app/) for `X-Cyber-Challenge`.
-> 2. Open your DevTools console (`F12`) on the portfolio site.
-> 3. Or drop into the site's web terminal (`~` or `Ctrl+K`) and execute `submit-flag <flag>` or `cat .flag.txt`.
+I am an **Offensive Security Researcher** and **Certified Red Team Analyst (CRTA #68C464)** with an academic foundation in Computer Science & Engineering at the University of Barishal. My focus lies in adversary emulation across enterprise Windows Active Directory forests, stress-testing Large Language Models against indirect prompt injections, and engineering zero-knowledge threat containment systems.
+
+Founding President of **BU ISSF** (*Intelligent Systems & Security Forum*) and recipient of the **€1,500 EU Youth Empowerment Fund / Global Youth Mobilization** grant for civic digital defense initiatives.
 
 ---
 
-## 📬 07 // SECURE COMMUNICATION CHANNELS
+### ⚔️ Core Technical Vectors
 
-* 🌐 **Live Portfolio:** [https://portfolio-mocha-beta-56.vercel.app/](https://portfolio-mocha-beta-56.vercel.app/)
-* 📧 **Encrypted Contact:** `arafatsijan2005@gmail.com`
-* 🛡️ **Community:** [BU ISSF (Intelligent Systems & Security Forum)](https://portfolio-mocha-beta-56.vercel.app/)
-* 📍 **Base of Operations:** Barishal, Bangladesh • Open for Global Remote Security Roles
+* **Red Teaming & Active Directory:** Kerberos Unconstrained Delegation abuse, Kerberoasting, AS-REP Roasting, DCSync replication, BloodHound attack-path graph heuristics, and multi-hop network pivoting (Ligolo-ng).
+* **Adversarial AI Threat Defense:** LLM threat modeling, indirect prompt injection execution, automated jailbreak payloads, boundary evaluation, and zero-knowledge telemetry scrapers.
+* **Precision OSINT & Reconnaissance:** Threat-actor infrastructure correlation, chronolocation, passive DNS forensics, satellite imagery metadata extraction, and operational sock-puppet hygiene.
+* **Defensive Engineering & SIEM:** Splunk Enterprise log engineering (`XmlWinEventLog:OpenSSH`), custom SPL analytics, K-Anonymity credential verification, and honeytoken canary alerting.
+
+---
+
+### 🔬 Featured Repositories
+
+| Repository | Focus & Architecture | Verifiable Proof |
+| :--- | :--- | :--- |
+| **[CryptaLeak](https://github.com/AR-Sijan/CryptaLeak)** | **Zero-Knowledge Breach Detection Engine**<br/>Java 21 LTS + MySQL 8.4. SHA-256 K-Anonymity (5-char prefix bucketing), AES-256 E2EE, in-memory BFS lateral traversal graph, and canary honeytoken alerting. | [Repository](https://github.com/AR-Sijan/CryptaLeak) • [Dossier](https://portfolio-mocha-beta-56.vercel.app/) |
+| **[ad-attack-defense](https://github.com/AR-Sijan/ad-attack-defense)** | **Active Directory Attack & Defense Field Guide**<br/>Kerberos unconstrained delegation abuse, DCSync privilege escalation, BloodHound cypher heuristics, and production Splunk SPL detection rules. | [CRTA #68C464](https://portfolio-mocha-beta-56.vercel.app/writeups/ad-kerberos-delegation) |
+| **[htb-cyber-apocalypse-2026](https://github.com/AR-Sijan/htb-cyber-apocalypse-2026)** | **HTB Cyber Apocalypse 2026: 100% Solve Speedrun**<br/>Technical methodologies from solving 136/136 challenges (69,425 pts) placing **#35 globally out of 6,744 international teams** (glibc 2.38 safe-linking, lattice crypto, OSINT). | [HTB Global #35](https://portfolio-mocha-beta-56.vercel.app/writeups/htb-apocalypse-2026) |
+| **[Purple-Team-SSH-Lab](https://github.com/AR-Sijan/Purple-Team-SSH-Lab)** | **Purple Team SSH Brute Force SIEM Homelab**<br/>Kali Linux (Hydra) attack simulation detected in real time on Windows 10 through Splunk Enterprise & Universal Forwarder log engineering. | [YouTube Walkthrough](https://www.youtube.com/watch?v=Y8wrNAIpDtA) |
+| **[gosh09](https://github.com/AR-Sijan/gosh09)** | **Go-Based Interactive WebSocket Reverse Operator**<br/>Lightweight, statically compiled Windows PE operator agent communicating over encrypted WebSockets for firewall-traversing interactive command sessions. | [Source Code](https://github.com/AR-Sijan/gosh09) |
+| **[portfolio](https://github.com/AR-Sijan/portfolio)** | **Tactical Cybersecurity Command Center**<br/>Next.js 14 SSG, Obsidian dark cyber aesthetic, HSTS (`max-age=63072000`), strict CSP, interactive terminal shell, and CTF challenge headers. | [Live Site](https://portfolio-mocha-beta-56.vercel.app/) |
+
+---
+
+### 🧩 CTF Challenge for Security Researchers
+
+> Check the HTTP response headers of [portfolio-mocha-beta-56.vercel.app](https://portfolio-mocha-beta-56.vercel.app/) for `X-Cyber-Challenge`.  
+> Or open the site's web terminal (`~` or `Ctrl+K`) and execute `submit-flag <flag>`.
+
+---
 
 <div align="center">
-<sub>Engineered with precision. All operations strictly conducted in authorized research labs and sanctioned scopes.</sub>
+  <sub>Arafat Rahman Sijan • Certified Red Team Analyst (CRTA #68C464) • All research conducted in authorized scopes.</sub>
 </div>

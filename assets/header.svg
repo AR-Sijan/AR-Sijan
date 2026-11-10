@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 170" width="100%" height="170">
+  <defs>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#08090d" />
+      <stop offset="50%" stop-color="#0b0d14" />
+      <stop offset="100%" stop-color="#050608" />
+    </linearGradient>
+    <linearGradient id="borderStroke" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f5d4" stop-opacity="0.4" />
+      <stop offset="50%" stop-color="#3b82f6" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#00f5d4" stop-opacity="0.3" />
+    </linearGradient>
+    <linearGradient id="cyanText" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f5d4" />
+      <stop offset="100%" stop-color="#38bdf8" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    @keyframes pulse {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.35; transform: scale(0.9); }
+    }
+    .pulse-dot {
+      animation: pulse 2s infinite ease-in-out;
+      transform-origin: 52px 37px;
+    }
+    .title-font {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      font-weight: 800;
+      font-size: 27px;
+      letter-spacing: -0.5px;
+      fill: #ffffff;
+    }
+    .mono-sub {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 11.5px;
+      font-weight: 600;
+      letter-spacing: 1.5px;
+      fill: url(#cyanText);
+      text-transform: uppercase;
+    }
+    .body-font {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      font-size: 13px;
+      fill: #94a3b8;
+    }
+    .mono-tiny {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 10.5px;
+      letter-spacing: 0.8px;
+    }
+  </style>
+
+  <!-- Base Card -->
+  <rect x="1" y="1" width="848" height="168" rx="14" fill="url(#cardBg)" stroke="url(#borderStroke)" stroke-width="1.2" />
+
+  <!-- Top Ambient Glow Line -->
+  <line x1="60" y1="1" x2="260" y2="1" stroke="#00f5d4" stroke-width="2" stroke-linecap="round" opacity="0.8" />
+
+  <!-- Status Pill -->
+  <rect x="36" y="25" width="230" height="24" rx="12" fill="#042f2e" fill-opacity="0.4" stroke="#0d9488" stroke-width="1" stroke-opacity="0.3" />
+  <circle cx="50" cy="37" r="4" fill="#10b981" class="pulse-dot" />
+  <text x="62" y="41" class="mono-tiny" fill="#34d399">LIVE TELEMETRY ACTIVE</text>
+  <text x="195" y="41" class="mono-tiny" fill="#64748b">•</text>
+  <text x="206" y="41" class="mono-tiny" fill="#94a3b8">CRTA</text>
+
+  <!-- Name & Title -->
+  <text x="36" y="85" class="title-font">Arafat Rahman Sijan</text>
+  <text x="36" y="110" class="mono-sub">Offensive Security Researcher • Systems Architect</text>
+  <text x="36" y="138" class="body-font">Active Directory exploitation, adversarial AI threat modeling, and zero-knowledge security systems.</text>
+
+  <!-- Right Operator Box -->
+  <g transform="translate(675, 25)">
+    <rect width="138" height="118" rx="12" fill="#0b0f19" stroke="#1e293b" stroke-width="1" />
+    <text x="69" y="30" text-anchor="middle" class="mono-tiny" fill="#64748b">ACCREDITATION</text>
+    <text x="69" y="58" text-anchor="middle" font-family="ui-monospace, monospace" font-size="19" font-weight="bold" fill="#00f5d4">#68C464</text>
+    <text x="69" y="80" text-anchor="middle" class="body-font" font-size="11.5" fill="#e2e8f0">CRTA Analyst</text>
+    <text x="69" y="100" text-anchor="middle" class="mono-tiny" fill="#38bdf8">HTB Top 0.5%</text>
+  </g>
+</svg>

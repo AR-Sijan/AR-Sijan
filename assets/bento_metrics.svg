@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 100" width="100%" height="100">
+  <defs>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0c0e17" />
+      <stop offset="100%" stop-color="#06070a" />
+    </linearGradient>
+  </defs>
+  <style>
+    .bento-card {
+      fill: url(#cardGrad);
+      stroke: #1e293b;
+      stroke-width: 1;
+      rx: 10px;
+    }
+    .metric-label {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 9.5px;
+      font-weight: 600;
+      letter-spacing: 1px;
+      fill: #64748b;
+      text-transform: uppercase;
+    }
+    .metric-val {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      font-size: 16px;
+      font-weight: 700;
+      letter-spacing: -0.3px;
+      fill: #ffffff;
+    }
+    .metric-sub {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 10.5px;
+      fill: #94a3b8;
+    }
+    .accent-cyan { fill: #00f5d4; }
+    .accent-blue { fill: #38bdf8; }
+    .accent-amber { fill: #fbbf24; }
+    .accent-purple { fill: #c084fc; }
+  </style>
+
+  <!-- Card 1: CRTA -->
+  <g transform="translate(0, 0)">
+    <rect width="202" height="98" class="bento-card" />
+    <circle cx="24" cy="24" r="3" fill="#00f5d4" />
+    <text x="34" y="27" class="metric-label">OFFENSIVE ACCREDITATION</text>
+    <text x="20" y="55" class="metric-val accent-cyan">CRTA Certified</text>
+    <text x="20" y="78" class="metric-sub">CyberWarFare Labs • #68C464</text>
+  </g>
+
+  <!-- Card 2: HTB -->
+  <g transform="translate(216, 0)">
+    <rect width="202" height="98" class="bento-card" />
+    <circle cx="24" cy="24" r="3" fill="#38bdf8" />
+    <text x="34" y="27" class="metric-label">ADVERSARIAL RIGOR</text>
+    <text x="20" y="55" class="metric-val accent-blue">Rank #35 / 6,744</text>
+    <text x="20" y="78" class="metric-sub">HTB Cyber Apocalypse 2026</text>
+  </g>
+
+  <!-- Card 3: EU Grant -->
+  <g transform="translate(432, 0)">
+    <rect width="202" height="98" class="bento-card" />
+    <circle cx="24" cy="24" r="3" fill="#fbbf24" />
+    <text x="34" y="27" class="metric-label">CIVIC INNOVATION</text>
+    <text x="20" y="55" class="metric-val accent-amber">€1,500 Awardee</text>
+    <text x="20" y="78" class="metric-sub">EU Youth Fund / GYM Grant</text>
+  </g>
+
+  <!-- Card 4: Leadership -->
+  <g transform="translate(648, 0)">
+    <rect width="202" height="98" class="bento-card" />
+    <circle cx="24" cy="24" r="3" fill="#c084fc" />
+    <text x="34" y="27" class="metric-label">COMMUNITY LEADERSHIP</text>
+    <text x="20" y="55" class="metric-val accent-purple">Founding President</text>
+    <text x="20" y="78" class="metric-sub">BU ISSF Forum • Barishal</text>
+  </g>
+</svg>
