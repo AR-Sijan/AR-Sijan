@@ -59,11 +59,11 @@
   <line x1="60" y1="1" x2="260" y2="1" stroke="#00f5d4" stroke-width="2" stroke-linecap="round" opacity="0.8" />
 
   <!-- Status Pill -->
-  <rect x="36" y="25" width="230" height="24" rx="12" fill="#042f2e" fill-opacity="0.4" stroke="#0d9488" stroke-width="1" stroke-opacity="0.3" />
+  <rect x="36" y="25" width="260" height="24" rx="12" fill="#042f2e" fill-opacity="0.4" stroke="#0d9488" stroke-width="1" stroke-opacity="0.3" />
   <circle cx="50" cy="37" r="4" fill="#10b981" class="pulse-dot" />
   <text x="62" y="41" class="mono-tiny" fill="#34d399">LIVE TELEMETRY ACTIVE</text>
-  <text x="195" y="41" class="mono-tiny" fill="#64748b">•</text>
-  <text x="206" y="41" class="mono-tiny" fill="#94a3b8">CRTA</text>
+  <text x="212" y="41" class="mono-tiny" fill="#64748b">•</text>
+  <text x="224" y="41" class="mono-tiny" fill="#94a3b8">CRTA</text>
 
   <!-- Name & Title -->
   <text x="36" y="85" class="title-font">Arafat Rahman Sijan</text>
